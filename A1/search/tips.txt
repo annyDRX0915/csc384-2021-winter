@@ -1,0 +1,3 @@
+1. Consider the dead ends, when the boxes are not at their destination. This includes when one of the boxes is stuck on the corner, stuck between the blocks so that it cannot be moved,  stuck on the wall and there is not a target besides the same wall or there is another box or block next to the box.
+2. Consider the distance between the boxes and the robots. If the box is very far from the robot, return a larger number. So that the case where the robots get nearer to the box will be considered first by the algorithms.
+3. Consider the distance between the boxes and the targets. If the box is very far from the targets, return a larger number. So that the case where the box get nearer to the targets will be considered first by the algorithms.
